@@ -8,7 +8,7 @@ minikube addons enable ingress
 kubectl get ns
 kubectl config get-contexts
 kubectl get pods -n $namespace
-kubectl get service -$namespace
+kubectl get service -n $namespace
 minikube service $service -n $namespace
 minikube service $service2 -n $namespace
 
